@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/* Menu basico */
+nav {
+    background: var(--main-color);
+    padding: 5px 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--second-color);
+}
+
+.logo a:hover {
+    text-decoration: none;
+}
+
+.menu li {
+    font-size: 14px;
+    padding: 15px 5px;
+    white-space: nowrap;
+}
+
+.logo a, .toggle a {
+    font-size: 21px;
+}
+
+.button.second {
+    border-bottom: 1px #444 solid;
+}
+
+/* Menu para mobil */
+
+.menu {
+    top: 0;
+    left: 0;
+    width: 100%;
+    /*position: fixed;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.toggle {
+    order: 1;
+}
+
+.item.button {
+    order: 2;
+}
+
+.item {
+    width: 100%;
+    text-align: center;
+    order: 3;
+    display: none;
+}
+
+.item.active{
+    display: block;
+}
+
+
+/* Navbar Toggle */
+.toggle {
+    cursor:pointer;
+}
+
+.bars {
+    background: #999;
+    display: inline-block;
+    height: 2px;
+    position: relative;
+    width: 18px;
+}
+
+.bars:before,.bars:after {
+    background: #999;
+    content: '';
+    display: inline-block;
+    height: 2px;
+    position: absolute;
+    width: 100%;
+}
+.bars:before {
+    top: 5px;
+}
+.bars:after {
+    top: -5px;
+}
+
+/* Para tablet */
+@media all and (min-width: 468px) {
+
+    .menu{
+        justify-content: center;
+    }
+
+    .logo {
+        flex: 1;
+    }
+
+    .item.button {
+        width: auto;
+        order: 1;
+        display: block;
+    }
+
+    .toggle {
+        order: 2; 
+    }
+
+    .button.second {
+        border: 0;
+    }
+
+    .button a {
+        text-decoration: none;
+        padding: 7px 15px;
+        background: var(--second-color);
+        border: 1px solid var(--second-color);
+        background: transparent;
+        border-radius: 50px;
+    }
+
+    .button a:hover {
+        background: var(--second-color);
+        color: white;
+    }
+
+}
+
+@media all and (min-width: 768px) {
+    
+    .item {
+        display: block;
+        width: auto;
+    }
+
+    .toggle {
+        display: none;
+    }
+
+    .logo {
+        order: 0;
+    }
+
+    .item {
+        order: 1;
+    }
+
+    .button {
+        order: 2;
+    }
+
+    .menu li {
+        padding: 15px 10px;
+    }
+
+    .menu li.button {
+        padding-right: 0;
+    }
+
+}
