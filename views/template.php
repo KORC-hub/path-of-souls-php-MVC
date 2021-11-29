@@ -21,7 +21,8 @@
             if ($views == "login" || $views == "404") {
                 require_once "./views/content/".$views."-view.php"; 
             } else {
-                include "./views/include/navBar.php"; 
+                include "./views/include/nav.php"; 
+                include $views;
             }
         ?>
     </body>

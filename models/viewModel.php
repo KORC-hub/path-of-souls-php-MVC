@@ -4,7 +4,7 @@
 
         /* Modelo para obtener las vistas */
         protected static function getViewModel($view){
-            $whiteList = ["home","art","code","effects","about","login","registration"];
+            $whiteList = ["home","art","code","effects","about","registration","perfil"];
             if(in_array($view, $whiteList)){
                 if(is_file("./views/content/".$view."-view.php")){
                     $content = "./views/content/".$view."-view.php";

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
 
 .presentacion {
-    height: 600px;
+    height: 100%;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -10,19 +10,6 @@
     -webkit-perspective: 1000;
     -webkit-transform: translate3d(0,0,0);
 }
-
-.presentacion.Art {
-    background-image: url(/resource/art/ART.png);
-}
-
-.presentacion.Code {
-    background-image: url(/resource/code/Code.jpg);
-}
-
-.presentacion.Effects {
-    background-image: url(/resource/effects/Music&Effects.jpg);
-}
-
 
 .presentacion div {
     height: auto;
