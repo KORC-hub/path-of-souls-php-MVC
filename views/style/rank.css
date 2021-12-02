@@ -1,0 +1,87 @@
+.main-rank {
+    width: 100%;
+    height: auto;
+    padding-top: 3%;
+}
+
+.rank {
+    border-radius: 5px;
+    margin: 2% 20%;
+}
+
+.info {
+    display: flex;
+    margin-left: 1%;
+}
+
+.info h1{
+    color: var(--second-color);
+    font-size: 90%;
+}
+
+.info h2 {
+    color: var(--second-color);
+    font-size: 90%;
+    margin-left: 4%;
+}
+
+.info h3 {
+    color: var(--second-color);
+    font-size: 90%;
+    margin-left: 83%;
+}
+
+
+.user-rank {
+    display: flex;
+    background: rgb(21, 28, 36);
+    margin: 0.5%;
+    margin-bottom: 0.5%;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.site {
+    width: 6%;
+    background: transparent;
+    text-align: center;
+}
+
+.site h1 {
+    background: transparent;
+    font-size: 100%;
+    margin-left: 10%;
+    margin-top: 18%;
+}
+
+.site i {
+    background: transparent;
+    font-size: 140%;
+    margin-left: 10%;
+    margin-top: 14%;
+}
+
+.user {
+    background: transparent;
+    width: 90%;
+}
+
+.user h1 {
+    font-size: 100%;
+    margin-left: 2%;
+    margin-top: 1%;
+    background: transparent;
+}
+
+.score {
+    background: transparent;
+    width: 10%;
+    text-align: center;
+}
+
+.score h1 {
+    margin-top: 10%;
+    font-size: 100%;
+    background: transparent;
+}
+

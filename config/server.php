@@ -1,7 +1,7 @@
 <?php
 
     const SERVER = "localhost";
-    const DB = "";
+    const DB = "path_of_souls";
     const USER = "root";
     const PASS = "";
 

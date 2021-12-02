@@ -1,0 +1,22 @@
+.contacto {
+    display:block;
+}
+
+.contacto h2{
+    margin-top: 4%;
+} 
+
+.contacto input[type="text"] {
+    margin: 2% 10%;
+    width: 70%;
+}
+
+.contacto textarea {
+    margin: 2% 10%;
+    width: 70%;
+}
+
+.contacto input[type="submit"] {
+    margin: 2% 10%;
+    width: 10%;
+}

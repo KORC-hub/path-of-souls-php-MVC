@@ -1,1 +1,1 @@
-<link rel="stylesheet" type="text/css" href="<?php echo SERVERURL; ?>views/style/formulario.css">
+<link rel="stylesheet" type="text/css" href="<?php echo SERVERURL; ?>views/style/forms.css">

@@ -3,7 +3,7 @@ fieldset {
     width: 40%;
     border-color: var(--second-color);
     padding: 30px;
-    margin: 10% 20% 0% 32%;
+    margin: 8% 20% 0% 32%;
     color: white;
 }
 
@@ -48,6 +48,7 @@ input {
 
 .botons {
     width: 100%;
+    display: block;
     background: var(--second-color);
     border: none;
     padding: 12px;
@@ -56,12 +57,4 @@ input {
     font-size: 16px;
 }
 
-.botons {
-    width: 100%;
-    background: var(--second-color);
-    border: none;
-    padding: 12px;
-    color: white;
-    margin: 16px 0;
-    font-size: 16px;
-}
+.

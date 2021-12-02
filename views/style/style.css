@@ -4,10 +4,10 @@
 :root {
     --main-color: #0a0e14ff;
     --second-color: #C77100;
+    --color-site-ranks: rgb(30, 35, 43);
 }
 
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -138,7 +138,7 @@ main audio {
     transform: translate(-50%, -50%);
 }
 
-@media all and (min-width: 468px) {
+@media all and (min-width: 1050px) {
     .videoPresentacion{
         display: none;
     }
@@ -155,7 +155,7 @@ main audio {
     }
 }
 
-@media all and (min-width: 1100px) {
+@media all and (min-width: 1580px) {
     
     .buttonPlay {
         font-size: 6vw;
