@@ -7,8 +7,8 @@
         <form class="contacto" action="" method="POST">
             <h2>Contacto</h2>
             <input type="text" name="asunto" placeholder="Asunto" autocomplete="off">
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" value="Enviar">
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+            <input type="submit" value="Enviar"> 
         </form>
     </div>  
 </main>

@@ -1,0 +1,42 @@
+.contacto {
+    display:block;
+}
+
+.contacto h2{
+
+    margin-top: 4%;
+} 
+
+.contacto input[type="text"] {
+    outline: 0px;
+    margin: 2% 10%;
+    width: 70%;
+    font-size: 150%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 4px;
+    border-style: none;
+    border-bottom: 1px solid var(--second-color);
+    color: white;
+}
+
+.contacto textarea {
+    margin: 2% 10%;
+    width: 70%;
+    font-size: 150%;
+    outline: 0px;
+    border-radius: 4px;
+    border: solid 1px var(--second-color);
+}
+
+.contacto input[type="submit"] {
+    margin-left: 10%;
+    margin-top: 2%;
+    margin-bottom: 15%;
+    width: 10%;
+    background: var(--second-color);
+    border: none;
+    padding: 12px;
+    color: white;
+    font-size: 120%;
+}

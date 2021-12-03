@@ -13,7 +13,7 @@
 
 <link rel="stylesheet" type="text/css" href="<?php echo SERVERURL; ?>views/style/perfilUser.css">
 
-<link rel="stylesheet" type="text/css" href="<?php echo SERVERURL; ?>views/style/contact.css">
+<link rel="stylesheet" type="text/css" href="<?php echo SERVERURL; ?>views/style/contacto.css">
 
 <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
